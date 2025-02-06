@@ -26,7 +26,7 @@ import shapefile
 import shapely.geometry
 from dateutil.relativedelta import relativedelta
 from matplotlib.tri import LinearTriInterpolator
-from matplotlib.tri.triangulation import Triangulation
+from matplotlib.tri import Triangulation
 from netCDF4 import Dataset, date2num
 from netCDF4 import date2num as mtime
 from scipy.interpolate import RegularGridInterpolator, LinearNDInterpolator, interp1d, Rbf
